@@ -34,14 +34,14 @@ Este é um projeto de Trading Dashboard que utiliza TensorTrade para criar uma i
 1. **Faça o Fork e Clone o repositório:**
 
 ```bash
-    git clone git@github.com:username/hackTrade-ai.git
-    cd hackTrade-ai
+git clone git@github.com:username/hackTrade-ai.git
+cd hackTrade-ai
 ```
 
 2. **Crie e ative um ambiente virtual:**
 
 ```python
-      python -m venv trading-env
+python -m venv trading-env
 ```
 
 source trading-env/bin/activate  # Para Linux/Mac
@@ -50,7 +50,7 @@ trading-env\Scripts\activate  # Para Windows
 3. **Instale as dependências:**
 
 ```pip
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Coletar Dados e Treinar o Modelo
@@ -64,7 +64,7 @@ trading-env\Scripts\activate  # Para Windows
     Execute o script **'trading_env.py'** para configurar o ambiente de trading e treinar o modelo:
 
 ```python
-    python trading_env.py
+python trading_env.py
 ```
 
 Isso criará e salvará o modelo treinado no diretório **'models/'**.
@@ -74,7 +74,7 @@ Isso criará e salvará o modelo treinado no diretório **'models/'**.
 1. **Inicie o servidor Flask:**
 
 ```python
-    python app.py
+python app.py
 ```
 
 2. **Acesse a aplicação:**
