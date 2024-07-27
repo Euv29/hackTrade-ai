@@ -1,0 +1,56 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Trading Dashboard</h1>
+    <canvas id="priceChart" width="800" height="400"></canvas>
+    <div id="signals"></div>
+
+    <script>
+        async function fetchData() {
+            const response = await fetch('/data');
+            const data = await response.json();
+            return data;
+        }
+
+        async function fetchSignals() {
+            const response = await fetch('/signals');
+            const signals = await response.json();
+            return signals;
+        }
+
+        async function updateChart() {
+            const data = await fetchData();
+            const signals = await fetchSignals();
+
+            const labels = data.map(row => row.timestamp);
+            const prices = data.map(row => row.close);
+
+            const ctx = document.getElementById('priceChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'BTC/USDT Price',
+                        data: prices,
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)'
+                    }]
+                }
+            });
+
+            document.getElementById('signals').innerText = `Signal: ${signals.info}`;
+        }
+
+        updateChart();
+    </script>
+</body>
+</html>
