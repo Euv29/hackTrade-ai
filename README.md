@@ -37,6 +37,7 @@ Este é um projeto de Trading Dashboard que utiliza TensorTrade para criar uma i
 git clone git@github.com:username/hackTrade-ai.git
 cd hackTrade-ai
 ```
+Certifique-se de substituir `username` pelo seu nome de usuário no GitHub.
 
 2. **Crie e ative um ambiente virtual:**
 
@@ -44,24 +45,28 @@ cd hackTrade-ai
 python -m venv trading-env
 ```
 
+```
 source trading-env/bin/activate  # Para Linux/Mac
 trading-env\Scripts\activate  # Para Windows
+```
+Use este comando no terminal para ativar o ambiente virtual no Linux ou Mac. No Windows, use `trading-env\Scripts\activate`.
 
 3. **Instale as dependências:**
 
 ```pip
 pip install -r requirements.txt
 ```
+Este comando instalará todas as dependências necessárias listadas no arquivo `requirements.txt`.
 
 ## Coletar Dados e Treinar o Modelo
 
 1. **Coletar dados da Binance:**
 
-    O script **'binance_data.py'** coleta dados históricos da Binance. Certifique-se de que está configurado corretamente para o ativo e timeframe desejados.
+O script **'binance_data.py'** coleta dados históricos da Binance. Certifique-se de que está configurado corretamente para o ativo e timeframe desejados.
 
 2. **Treinar o modelo**
 
-    Execute o script **'trading_env.py'** para configurar o ambiente de trading e treinar o modelo:
+Execute o script **'trading_env.py'** para configurar o ambiente de trading e treinar o modelo:
 
 ```python
 python trading_env.py
@@ -79,7 +84,7 @@ python app.py
 
 2. **Acesse a aplicação:**
 
-    Abra o navegador e vá para <http://localhost:5000> para ver o dashboard de trading.
+Abra o navegador e vá para <http://localhost:5000> para ver o dashboard de trading.
 
 ## Estrutura de Arquivos
 
@@ -107,6 +112,6 @@ python app.py
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+Este projeto está licenciado sob a Licença `MIT` - veja o arquivo LICENSE para detalhes.
 
-Este README cobre os principais aspectos do seu projeto, desde a instalação e configuração até a execução e contribuição. Sinta-se à vontade para ajustá-lo conforme necessário para melhor se adequar ao seu projeto e suas necessidades.
+Este `README` cobre os principais aspectos do seu projeto, desde a instalação e configuração até a execução e contribuição. Sinta-se à vontade para ajustá-lo conforme necessário para melhor se adequar ao seu projeto e suas necessidades.
