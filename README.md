@@ -1,6 +1,6 @@
 # HACKTRADE
 
-    Este é um projeto de Trading Dashboard que utiliza TensorTrade para criar uma inteligência artificial que analisa gráficos junto com a API da Binance. Ele fornece análises em tempo real, sinais de compra ou venda, bem como informações sobre o ativo, timeframe e horário, exibidos em uma página HTML.
+Este é um projeto de Trading Dashboard que utiliza TensorTrade para criar uma inteligência artificial que analisa gráficos junto com a API da Binance. Ele fornece análises em tempo real, sinais de compra ou venda, bem como informações sobre o ativo, timeframe e horário, exibidos em uma página HTML.
 
 ## Estrutura do Projeto
 
@@ -31,21 +31,21 @@
 
 ## Instalação
 
-1. **Clone o repositório:**
+1. **Faça o Fork e Clone o repositório:**
 
 ```bash
     git clone git@github.com:username/hackTrade-ai.git
-    cd 
+    cd hackTrade-ai
 ```
 
 2. **Crie e ative um ambiente virtual:**
 
 ```python
-    python -m venv trading-env
+      python -m venv trading-env
 ```
 
-    source trading-env/bin/activate  # Para Linux/Mac
-    trading-env\Scripts\activate  # Para Windows
+source trading-env/bin/activate  # Para Linux/Mac
+trading-env\Scripts\activate  # Para Windows
 
 3. **Instale as dependências:**
 
@@ -67,7 +67,7 @@
     python trading_env.py
 ```
 
-    Isso criará e salvará o modelo treinado no diretório **'models/'**.
+Isso criará e salvará o modelo treinado no diretório **'models/'**.
 
 ## Executar o Servidor
 
@@ -83,30 +83,30 @@
 
 ## Estrutura de Arquivos
 
-    1. binance_data.py: Script para coletar dados históricos da Binance.
-    2. trading_env.py: Script para configurar o ambiente de trading com TensorTrade e treinar o modelo.
-    3. app.py: Script principal do Flask que serve a API e a página HTML.
-    4. models/: Diretório para armazenar modelos treinados.
-    5. templates/index.html: Página HTML para exibir gráficos e sinais de trading.
-    6. static/css/styles.css: Arquivo CSS para estilos.
-    7. requirements.txt: Arquivo que lista todas as dependências do projeto.
+1. binance_data.py: Script para coletar dados históricos da Binance.
+2. trading_env.py: Script para configurar o ambiente de trading com TensorTrade e treinar o modelo.
+3. app.py: Script principal do Flask que serve a API e a página HTML.
+4. models/: Diretório para armazenar modelos treinados.
+5. templates/index.html: Página HTML para exibir gráficos e sinais de trading.
+6. static/css/styles.css: Arquivo CSS para estilos.
+7. requirements.txt: Arquivo que lista todas as dependências do projeto.
 
 ## Funcionalidades
 
-    1. Análise em Tempo Real: A IA analisa gráficos em tempo real usando dados da Binance.
-    2. Sinais de Trading: Fornece sinais de compra ou venda baseados em aprendizado por reforço.
-    3. Dashboard Interativo: Exibe gráficos de preços e sinais de trading em uma página HTML.
+1. Análise em Tempo Real: A IA analisa gráficos em tempo real usando dados da Binance.
+2. Sinais de Trading: Fornece sinais de compra ou venda baseados em aprendizado por reforço.
+3. Dashboard Interativo: Exibe gráficos de preços e sinais de trading em uma página HTML.
 
 ## Contribuição
 
-    1. Faça um fork do projeto.
-    2. Crie uma branch para sua feature (git checkout -b feature/nova-feature).
-    3. Faça commit das suas alterações (git commit -am 'Adiciona nova feature').
-    4. Faça push para a branch (git push origin feature/nova-feature).
-    5. Abra um Pull Request.
+1. Faça um fork do projeto.
+2. Crie uma branch para sua feature (git checkout -b feature/nova-feature).
+3. Faça commit das suas alterações (git commit -am 'Adiciona nova feature').
+4. Faça push para a branch (git push origin feature/nova-feature).
+5. Abra um Pull Request.
 
 ## Licença
 
-    Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
 
-    Este README cobre os principais aspectos do seu projeto, desde a instalação e configuração até a execução e contribuição. Sinta-se à vontade para ajustá-lo conforme necessário para melhor se adequar ao seu projeto e suas necessidades.
+Este README cobre os principais aspectos do seu projeto, desde a instalação e configuração até a execução e contribuição. Sinta-se à vontade para ajustá-lo conforme necessário para melhor se adequar ao seu projeto e suas necessidades.
