@@ -34,7 +34,7 @@
 1. **Clone o repositório:**
 
 ```bash
-    git clone 
+    git clone git@github.com:username/hackTrade-ai.git
     cd 
 ```
 
@@ -83,19 +83,19 @@
 
 ## Estrutura de Arquivos
 
-    * binance_data.py: Script para coletar dados históricos da Binance.
-    * trading_env.py: Script para configurar o ambiente de trading com TensorTrade e treinar o modelo.
-    * app.py: Script principal do Flask que serve a API e a página HTML.
-    * models/: Diretório para armazenar modelos treinados.
-    * templates/index.html: Página HTML para exibir gráficos e sinais de trading.
-    * static/css/styles.css: Arquivo CSS para estilos.
-    * requirements.txt: Arquivo que lista todas as dependências do projeto.
+    1. binance_data.py: Script para coletar dados históricos da Binance.
+    2. trading_env.py: Script para configurar o ambiente de trading com TensorTrade e treinar o modelo.
+    3. app.py: Script principal do Flask que serve a API e a página HTML.
+    4. models/: Diretório para armazenar modelos treinados.
+    5. templates/index.html: Página HTML para exibir gráficos e sinais de trading.
+    6. static/css/styles.css: Arquivo CSS para estilos.
+    7. requirements.txt: Arquivo que lista todas as dependências do projeto.
 
 ## Funcionalidades
 
-    * Análise em Tempo Real: A IA analisa gráficos em tempo real usando dados da Binance.
-    * Sinais de Trading: Fornece sinais de compra ou venda baseados em aprendizado por reforço.
-    * Dashboard Interativo: Exibe gráficos de preços e sinais de trading em uma página HTML.
+    1. Análise em Tempo Real: A IA analisa gráficos em tempo real usando dados da Binance.
+    2. Sinais de Trading: Fornece sinais de compra ou venda baseados em aprendizado por reforço.
+    3. Dashboard Interativo: Exibe gráficos de preços e sinais de trading em uma página HTML.
 
 ## Contribuição
 
@@ -106,7 +106,7 @@
     5. Abra um Pull Request.
 
 ## Licença
-    
+
     Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
 
     Este README cobre os principais aspectos do seu projeto, desde a instalação e configuração até a execução e contribuição. Sinta-se à vontade para ajustá-lo conforme necessário para melhor se adequar ao seu projeto e suas necessidades.
