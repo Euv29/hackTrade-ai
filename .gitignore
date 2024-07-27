@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Caches and logs
+*.log
+
+# Virtual environment directories
+.env/
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Editor configurations
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files and directories
+tmp/
+temp/
+
+# Models
+models/
+
+# Flask instance folder
+instance/
+
+# Node modules (if you use Node.js)
+node_modules/
+
+# Static files
+static/css/styles.css
+static/js/main.js
+
+# Requirements
+requirements.txt
+
+# Environment variables
+.env
