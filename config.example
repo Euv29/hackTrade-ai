@@ -1,0 +1,4 @@
+# config.py
+
+BINANCE_API_KEY = 'sua_chave_api_da_binance'
+BINANCE_API_SECRET = 'seu_segredo_api_da_binance'

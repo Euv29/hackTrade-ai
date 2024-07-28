@@ -20,9 +20,9 @@ sympy==1.13.1
 torch==2.4.0
 triton==3.0.0
 typing-extensions==4.12.2
-
 tensortrade
 tensorflow
 stable-baselines3
 ccxt
 flask
+python-binance

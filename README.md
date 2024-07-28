@@ -1,4 +1,4 @@
-# HACKTRADE
+# HACKTRADE AI
 
 Este é um projeto de Trading Dashboard que utiliza TensorTrade para criar uma inteligência artificial que analisa gráficos junto com a API da Binance. Ele fornece análises em tempo real, sinais de compra ou venda, bem como informações sobre o ativo, timeframe e horário, exibidos em uma página HTML.
 

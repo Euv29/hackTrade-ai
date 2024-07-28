@@ -51,3 +51,4 @@ requirements.txt
 
 # Environment variables
 .env
+config.py
